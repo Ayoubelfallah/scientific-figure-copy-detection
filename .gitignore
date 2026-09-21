@@ -1,0 +1,27 @@
+# --- Python ---
+venv/
+__pycache__/
+*.pyc
+
+# --- Heavy data (regenerate via scripts; BioFors is CC0, download separately) ---
+data/biofors/
+data/*.zip
+data/*.tar
+data/classification.json
+data/emb/
+
+# --- Generated query images (regenerate with code/03_build_queries.py, seed 42) ---
+data/benchmark_full/**/*.png
+data/benchmark_full/**/*.jpg
+data/benchmark_test/
+
+# --- Model weights (download from official sources, see README) ---
+models/
+
+# --- Paper artifacts (not part of the code release) ---
+*.docx
+*.pdf
+_full_extract.txt
+
+# NB: kept on purpose -> code/, data/results/*.csv, data/figures/*.png,
+#     data/benchmark_full/ground_truth.json, README, requirements, LICENSE
