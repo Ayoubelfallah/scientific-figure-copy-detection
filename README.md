@@ -3,7 +3,7 @@
 
 Open benchmark and code for evaluating image **copy-detection** on **scientific figures**, with an explicit **full-copy vs. partial-copy** split. Built on top of the public [BioFors](https://github.com/vimal-isi-edu/BioFors) dataset (CC0).
 
-> **TL;DR** — State-of-the-art copy-detection descriptors (SSCD, DINOv2) transfer very well to *full* copies of scientific figures, but **all global descriptors collapse on partial copies** (a single panel reused inside a composite — the dominant fraud pattern). A local SIFT+RANSAC re-ranking stage more than doubles partial-copy recall.
+> **Summary** — State-of-the-art copy-detection descriptors (SSCD, DINOv2) transfer very well to *full* copies of scientific figures, but **all global descriptors collapse on partial copies** (a single panel reused inside a composite — the dominant fraud pattern). A local SIFT+RANSAC re-ranking stage more than doubles partial-copy recall.
 
 ---
 
