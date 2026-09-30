@@ -89,7 +89,6 @@ curl -L -o models/sscd_disc_mixup.torchscript.pt https://dl.fbaipublicfiles.com/
   title     = {Do Copy-Detection Descriptors Transfer to Scientific Figures?
                A Reproducible Benchmark for Full and Partial Figure Reuse},
   author    = {El Fallah, Ayoub and others},
-  booktitle = {(to appear)},
   year      = {2026}
 }
 ```
