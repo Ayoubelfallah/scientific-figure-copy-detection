@@ -10,18 +10,29 @@ data/*.tar
 data/classification.json
 data/emb/
 
-# --- Generated query images (regenerate with code/03_build_queries.py, seed 42) ---
+# --- Generated query images (regenerate with code/03 & code/09) ---
 data/benchmark_full/**/*.png
 data/benchmark_full/**/*.jpg
 data/benchmark_test/
+data/benchmark_hard/**/*.png
+data/benchmark_hard/**/*.jpg
 
 # --- Model weights (download from official sources, see README) ---
 models/
 
-# --- Paper artifacts (not part of the code release) ---
+# --- Paper / slides / internal artifacts (not part of the code release) ---
 *.docx
+*.docm
 *.pdf
+*.pptx
 _full_extract.txt
+REVISION_ROADMAP.md
+code/build_slides.js
 
 # NB: kept on purpose -> code/, data/results/*.csv, data/figures/*.png,
 #     data/benchmark_full/ground_truth.json, README, requirements, LICENSE
+
+paper_draft.md
+00_CADRAGE_short_paper.md
+00_Reading_List_A_Cross_Article_Image_Reuse.md
+code/build_paper.js

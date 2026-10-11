@@ -14,9 +14,9 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RES = os.path.join(ROOT, "data", "results")
 FIG = os.path.join(ROOT, "data", "figures"); os.makedirs(FIG, exist_ok=True)
 
-METHODS = ["phash", "dinov2", "sscd", "sscd_local"]
-LABELS  = {"phash": "pHash", "dinov2": "DINOv2", "sscd": "SSCD", "sscd_local": "SSCD+Local"}
-COLORS  = {"phash": "#9aa0a6", "dinov2": "#4285f4", "sscd": "#ea4335", "sscd_local": "#8e44ad"}
+METHODS = ["phash", "dinov2", "sscd", "sscd_local", "sscd_tiled"]
+LABELS  = {"phash": "pHash", "dinov2": "DINOv2", "sscd": "SSCD", "sscd_local": "SSCD+Local", "sscd_tiled": "SSCD+Tiling"}
+COLORS  = {"phash": "#9aa0a6", "dinov2": "#4285f4", "sscd": "#ea4335", "sscd_local": "#8e44ad", "sscd_tiled": "#e67e22"}
 TF_ORDER = ["jpeg40","rescale70","contrast","flip_h","crop80","rot90","rot180","rot270","partial"]
 TF_NICE  = {"jpeg40":"JPEG","rescale70":"Rescale","contrast":"Contrast","flip_h":"Flip",
             "crop80":"Crop","rot90":"Rot90","rot180":"Rot180","rot270":"Rot270","partial":"PARTIAL"}
