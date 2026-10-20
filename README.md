@@ -1,9 +1,9 @@
 # Do Copy-Detection Descriptors Transfer to Scientific Figures?
 ### A Reproducible Benchmark for Full and Partial Figure Reuse
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23296695.svg)](https://doi.org/10.5281/zenodo.23296695) version 1.0
+version 1.0 => [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23296695.svg)](https://doi.org/10.5281/zenodo.23296695) 
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23505885.svg)](https://doi.org/10.5281/zenodo.23505885)  Version 1.1
+Version 1.1 => [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23505885.svg)](https://doi.org/10.5281/zenodo.23505885)  
 
 Open benchmark and code for evaluating image **copy-detection** on **scientific figures**, with an explicit **full-copy vs. partial-copy** split. Built on top of the public [BioFors](https://github.com/vimal-isi-edu/BioFors) dataset (CC0).
 
